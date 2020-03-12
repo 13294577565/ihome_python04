@@ -1,0 +1,24 @@
+报错  RuntimeError: Working outside of request context.
+
+https://blog.csdn.net/SooKie_p/article/details/100098641
+
+
+workon flask  报错
+http://www.pianshen.com/article/3116696842/
+mkvirtualenv flask  创建虚拟环境
+
+
+houses.py 246 报错
+return b'{"errno":0, "errmsg":"OK", "data":%s}' % ret, 200, {"Content-Type": "application/json"}
+加上b转换为byte 可正常显示页面轮播图
+
+
+houses.py 322 报错
+   resp = '{"errno":"0", "errmsg":"OK", "data":{"user_id":%s, "house":%s}}' % (user_id, json_house), \
+           200, {"Content-Type": "application/json".encode(encoding="utf-8")}
+           将返回时候的数据转为utf-8格式  ，否则无法正常显示detail页面，不加不会报错！
+
+
+进入支付页面报错，由于读取文件方式错误，用以下网址的读取方式可正常使用
+https://www.cnblogs.com/jrri/p/11669349.html
+

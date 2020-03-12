@@ -1,0 +1,161 @@
+ERROR app.py:1761 Exception on /login.html [GET]
+Traceback (most recent call last):
+  File "D:\AN\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\AN\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\AN\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\AN\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\data\ihome_python04\ihome\web_html.py", line 33, in get_html
+    resp.set_cookie('csrf_token',csrf_token)
+  File "D:\AN\lib\site-packages\werkzeug\wrappers.py", line 1116, in set_cookie
+    samesite=samesite
+  File "D:\AN\lib\site-packages\werkzeug\http.py", line 1055, in dump_cookie
+    value = to_bytes(value, charset)
+  File "D:\AN\lib\site-packages\werkzeug\_compat.py", line 190, in to_bytes
+    raise TypeError('Expected bytes')
+TypeError: Expected bytes
+ERROR app.py:1761 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "D:\AN\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\AN\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\AN\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\AN\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\data\ihome_python04\ihome\web_html.py", line 33, in get_html
+    resp.set_cookie('csrf_token',csrf_token)
+  File "D:\AN\lib\site-packages\werkzeug\wrappers.py", line 1116, in set_cookie
+    samesite=samesite
+  File "D:\AN\lib\site-packages\werkzeug\http.py", line 1055, in dump_cookie
+    value = to_bytes(value, charset)
+  File "D:\AN\lib\site-packages\werkzeug\_compat.py", line 190, in to_bytes
+    raise TypeError('Expected bytes')
+TypeError: Expected bytes
+ERROR app.py:1761 Exception on /login.html [GET]
+Traceback (most recent call last):
+  File "D:\AN\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\AN\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\AN\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\AN\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\data\ihome_python04\ihome\web_html.py", line 33, in get_html
+    resp.set_cookie('csrf_token',csrf_token)
+  File "D:\AN\lib\site-packages\werkzeug\wrappers.py", line 1116, in set_cookie
+    samesite=samesite
+  File "D:\AN\lib\site-packages\werkzeug\http.py", line 1055, in dump_cookie
+    value = to_bytes(value, charset)
+  File "D:\AN\lib\site-packages\werkzeug\_compat.py", line 190, in to_bytes
+    raise TypeError('Expected bytes')
+TypeError: Expected bytes
+ERROR app.py:1761 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "D:\AN\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\AN\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\AN\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\AN\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\data\ihome_python04\ihome\web_html.py", line 33, in get_html
+    resp.set_cookie('csrf_token',csrf_token)
+  File "D:\AN\lib\site-packages\werkzeug\wrappers.py", line 1116, in set_cookie
+    samesite=samesite
+  File "D:\AN\lib\site-packages\werkzeug\http.py", line 1055, in dump_cookie
+    value = to_bytes(value, charset)
+  File "D:\AN\lib\site-packages\werkzeug\_compat.py", line 190, in to_bytes
+    raise TypeError('Expected bytes')
+TypeError: Expected bytes
+ERROR app.py:1761 Exception on /index.html [GET]
+Traceback (most recent call last):
+  File "D:\AN\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\AN\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\AN\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\AN\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\data\ihome_python04\ihome\web_html.py", line 33, in get_html
+    resp.set_cookie('csrf_token',csrf_token)
+  File "D:\AN\lib\site-packages\werkzeug\wrappers.py", line 1116, in set_cookie
+    samesite=samesite
+  File "D:\AN\lib\site-packages\werkzeug\http.py", line 1055, in dump_cookie
+    value = to_bytes(value, charset)
+  File "D:\AN\lib\site-packages\werkzeug\_compat.py", line 190, in to_bytes
+    raise TypeError('Expected bytes')
+TypeError: Expected bytes
+ERROR app.py:1761 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "D:\AN\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\AN\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\AN\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\AN\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\data\ihome_python04\ihome\web_html.py", line 33, in get_html
+    resp.set_cookie('csrf_token',csrf_token)
+  File "D:\AN\lib\site-packages\werkzeug\wrappers.py", line 1116, in set_cookie
+    samesite=samesite
+  File "D:\AN\lib\site-packages\werkzeug\http.py", line 1055, in dump_cookie
+    value = to_bytes(value, charset)
+  File "D:\AN\lib\site-packages\werkzeug\_compat.py", line 190, in to_bytes
+    raise TypeError('Expected bytes')
+TypeError: Expected bytes
+ERROR app.py:1761 Exception on /index.html [GET]
+Traceback (most recent call last):
+  File "D:\AN\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\AN\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\AN\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\AN\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\AN\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "E:\data\ihome_python04\ihome\web_html.py", line 33, in get_html
+    resp.set_cookie('csrf_token',csrf_token)
+  File "D:\AN\lib\site-packages\werkzeug\wrappers.py", line 1116, in set_cookie
+    samesite=samesite
+  File "D:\AN\lib\site-packages\werkzeug\http.py", line 1055, in dump_cookie
+    value = to_bytes(value, charset)
+  File "D:\AN\lib\site-packages\werkzeug\_compat.py", line 190, in to_bytes
+    raise TypeError('Expected bytes')
+TypeError: Expected bytes
