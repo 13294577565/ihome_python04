@@ -87,7 +87,7 @@ docutils==0.14
 drf-extensions==0.5.0
 entrypoints==0.2.3
 et-xmlfile==1.0.1
-eventlet==0.25.1
+eventlet==0.31.0
 fastcache==1.0.2
 filelock==3.0.8
 Flask==1.0.2
